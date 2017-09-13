@@ -68,6 +68,18 @@ img{
 	margin: 40px 8px;
 }
 
+footer{
+	width: 100%;
+	font-family: "Raleway", sans-serif;
+	text-transform: uppercase;
+	padding: 40px 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 16px;
+	letter-spacing: .08em;
+	font-weight: 500;
+}
+
 .copyright{
 font-family: "Raleway", sans-serif;
 float:left;
@@ -82,20 +94,11 @@ float:right;
 	color:#F15B31;
 	font-weight: 700;
 }
-footer{
-	text-transform: uppercase;
-	padding: 30px 20px;
-	background-color: #0D2C40;
-	color: white;
-	font-size: 16px;
-	letter-spacing: .08em;
-	font-weight: 500;
-	font-family: "Raleway", sans-serif;
-}
+
 
 .clearfix:after {
 	visibility: hidden;
-	display:block;
+	display:inline-block;
 	content:" ";
 	clear:both;
 	height: 0;
